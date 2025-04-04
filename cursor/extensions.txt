@@ -28,6 +28,7 @@ pkief.material-icon-theme
 pkief.material-product-icons
 pnp.polacode
 robertostermann.inline-parameters-extended
+sdras.vue-vscode-snippets
 shd101wyy.markdown-preview-enhanced
 syler.sass-indented
 sysoev.language-stylus
@@ -35,6 +36,7 @@ tobermory.es6-string-html
 usernamehw.errorlens
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
+vue.volar
 waderyan.gitblame
 xabikos.javascriptsnippets
 zh9528.file-size

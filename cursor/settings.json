@@ -69,8 +69,16 @@
     "repositories": true,
     "searchAndCompare": false,
     "launchpad": false
-  }
+  },
   
   // ⚙️ 기타 설정
-
+  // 🔹 Vue js 관련
+  "emmet.syntaxProfiles": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "vue.complete.casing.props": "autoCamel",
+  "vue.autoInsert.dotValue": true,
+  "editor.defaultFoldingRangeProvider": "Vue.volar",
+  "material-icon-theme.activeIconPack": "vue_vuex"
 }
