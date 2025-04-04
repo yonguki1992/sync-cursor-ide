@@ -1,0 +1,76 @@
+{
+  "window.commandCenter": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "cursor.cpp.disabledLanguages": [],
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "npm-intellisense.importQuotes": "\"",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+
+  // 🎨 에디터 UI
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "D2Coding ligature",
+  "editor.fontLigatures": true,
+  "editor.fontVariations": false,
+  "editor.mouseWheelZoom": true,
+  "editor.accessibilitySupport": "off",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.inlayHints.padding": true,
+
+  // 💄 포매팅 및 저장 시 자동 포맷
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+
+  // 🧹 저장 시 자동 정리 (ESLint)
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["html", "javascript", "javascriptreact", "vue"],
+  "eslint.useFlatConfig": true,
+  "eslint.options": {},
+  "eslint.format.enable": false,
+
+  // 💡 인텔리센스 및 자동완성
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "typescript.tsserver.web.projectWideIntellisense.enabled": false,
+
+  // 💡 IntelliCode 비활성화 (원하는 경우 활성화 가능)
+  "vsintellicode.java.completionsEnabled": false,
+  "vsintellicode.python.completionsEnabled": false,
+  "vsintellicode.sql.completionsEnabled": false,
+  "vsintellicode.typescript.completionsEnabled": false,
+
+  // 🎨 테마 및 아이콘
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.activityBar.orientation": "vertical",
+
+  // 🧠 GitLens 설정
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.views.branches.showStashes": true,
+  "gitlens.views.scm.grouped.hiddenViews": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": true,
+    "searchAndCompare": false,
+    "launchpad": false
+  }
+  
+  // ⚙️ 기타 설정
+
+}
