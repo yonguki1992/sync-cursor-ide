@@ -1,6 +1,6 @@
 # 🛠 Cursor IDE 설정 관리 (by 브랜치)
 
-이 저장소는 **Cursor IDE의 설정과 확장(Extensions)** 을 백업 및 복원하는 용도로 사용됩니다. 각 브랜치는 프레임워크별 개발 환경에 맞춘 설정을 제공합니다.
+이 저장소는 새로운 환경에서 **Cursor IDE의 설정과 확장(Extensions)** 의 기초 설정을 적용할 용도로 사용됩니다. 각 브랜치는 프레임워크별 개발 환경에 맞춘 프리셋을 제공합니다.
 
 ## 📂 브랜치 구조
 
@@ -19,21 +19,14 @@ git clone https://github.com/yonguki1992/sync-cursor-ide.git
 cd ~/sync-cursor-ide
 ```
 
-### 2. 백업하기
-
-```bash
-./sync-cursor.sh
-```
-
-> 현재 Cursor 설정을 `./cursor/` 폴더에 백업합니다.
-
-### 3. 복원하기
+### 2. 초기 설정 적용
 
 ```bash
 ./setup-cursor.sh
 ```
 
-> 저장소 내 설정을 `Cursor IDE` 사용자 디렉토리에 복원합니다.
+> 저장소 내 설정을 `Cursor IDE` 사용자 디렉토리에 적용합니다.
+
 
 ## 📦 포함된 항목
 
@@ -52,4 +45,4 @@ CMD + SHIFT + P → Reload Window
 ## ✅ 추천 사용법
 
 - `main` 브랜치를 기반으로 `vue`, `react`, `svelte` 등의 브랜치를 파생
-- 브랜치마다 필요한 확장 및 설정만 유지 → 경량화 + 빠른 로딩
+- 브랜치마다 필요한 확장 및 설정을 처음 설정할 때 사용
